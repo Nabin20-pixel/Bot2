@@ -32,8 +32,8 @@ var callback = () => api.sendMessage({body:`🌹𝙰𝙳𝙼𝙸𝙽 𝙰𝙽�
 
 🔥𝗢𝗪𝗡𝗘𝗥 🔥☞︎︎︎ 𝗡𝗮𝗯𝗶𝗻 𝗦𝗶𝗻𝗴𝗷𝗮𝗹𝗶 ☜︎︎︎✰ \n\n
 🙈🄾🅆🄽🄴🅁 🄲🄾🄽🅃🄰🄲🅃 🄻🄸🄽🄺🅂🙈➪ \n\n  𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 🧨https://www.facebook.com/nabin.mgrx.237081💞🕊️
-  \n 
-𝗼𝘁 𝗣𝗿𝗲𝗳𝗶𝘅🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+
+𝗕𝗼𝘁 𝗣𝗿𝗲𝗳𝗶𝘅🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
 🥳UPTIME🥳
 
