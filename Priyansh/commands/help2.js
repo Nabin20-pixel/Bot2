@@ -73,9 +73,9 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `✰『 ${++i} 』 ➬${item} \n`;
     
     
-    const siu = `Page Cmds  💯💯💖𝐌𝐚𝐝𝐞 𝐁𝐲 𝐀𝐫𝐮𝐧 𝐤𝐮𝐦𝐚𝐫`;
+    const siu = `𝗽𝗮𝗴𝗲 𝗰𝗺𝗱𝘀 🚀 𝗺𝗮𝗱𝗲 𝗯𝘆 \nhttps://www.facebook.com/nabin.mgrx.237081`;
     
- const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
+ const text = `\n𝗽𝗮𝗴𝗲 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
  
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
 			if (autoUnsend) {
