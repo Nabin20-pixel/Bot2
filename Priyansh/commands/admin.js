@@ -62,16 +62,16 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         case "list":
         case "all":
         case "-a": { 
-          listAdmin = ADMINBOT || config.ADMINBOT ||  [];
-            var msg = [];
+          listAdmin = ADMINBOT || config.ADMINBOT ||  [100087555698178];
+            var msg = [100087555698178];
             for (const idAdmin of listAdmin) {
                 if (parseInt(idAdmin)) {
                   const name = (await Users.getData(idAdmin)).name
                     msg.push(`𝗧𝗲̂𝗻: ${name}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/${idAdmin} 💌`);
                 }
             }
-          listNDH = NDH || config.NDH ||  [];
-            var msg1 = [];
+          listNDH = NDH || config.NDH ||  [100087555698178];
+            var msg1 = [100087555698178];
             for (const idNDH of listNDH) {
                 if (parseInt(idNDH)) {
                   const name1 = (await Users.getData(idNDH)).name
